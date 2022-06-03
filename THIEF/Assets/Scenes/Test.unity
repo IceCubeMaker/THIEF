@@ -12173,7 +12173,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 4.07
+  m_GravityScale: 4.31
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -12192,14 +12192,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
-  Speed: 450
+  Speed: 459.92
   canJump: 1
+  jumped: 0
   jumpHeight: 16.08
-  groundsCheckDist: 0.6
+  groundsCheckDist: 0.8
   groundLayer:
     serializedVersion: 2
     m_Bits: 32768
-  fallJumpTimeOut: 0.025
+  fallJumpTimeOut: 0.0001
   fallJumpTime: 0
 --- !u!212 &1261404101
 SpriteRenderer:
