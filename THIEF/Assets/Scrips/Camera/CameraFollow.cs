@@ -9,7 +9,7 @@ public class CameraFollow : MonoBehaviour
     [Tooltip("Percentage from 0-1 per second to travel")]
     public float lerpSpeed;
 
-    void Update()
+    void LateUpdate()
     {
         if(target && isFollow) { FollowTarget(); }
     }

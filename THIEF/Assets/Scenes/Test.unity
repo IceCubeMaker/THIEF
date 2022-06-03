@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 127393365}
   - component: {fileID: 127393364}
   - component: {fileID: 127393363}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Coliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12193,8 +12193,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   Speed: 450
-  canJump: 0
+  canJump: 1
   jumpHeight: 16.08
+  groundsCheckDist: 0.6
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 32768
+  fallJumpTimeOut: 0.025
+  fallJumpTime: 0
 --- !u!212 &1261404101
 SpriteRenderer:
   m_ObjectHideFlags: 0
