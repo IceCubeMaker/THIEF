@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
     {
         moveAxis = pControl.PlayerMovement.Movement;
         pControl.PlayerMovement.Jump.performed += ctx => OnJump(); //Binding Jump Action to Jump Function
-
+        GameManager.Instance.player = this;
         rb = this.GetComponent<Rigidbody2D>();
     }
     // Update is called once per frame
